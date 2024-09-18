@@ -1,0 +1,23 @@
+going to create a new package
+package name: nerfman
+destination directory: /home/nerfman/ros2_ws/src
+package format: 3
+version: 0.0.0
+description: TODO: Package description
+maintainer: ['nerfman <nerfman@todo.todo>']
+licenses: ['Apache-2.0']
+build type: ament_python
+dependencies: []
+creating folder ./nerfman
+creating ./nerfman/package.xml
+creating source folder
+creating folder ./nerfman/nerfman
+creating ./nerfman/setup.py
+creating ./nerfman/setup.cfg
+creating folder ./nerfman/resource
+creating ./nerfman/resource/nerfman
+creating ./nerfman/nerfman/__init__.py
+creating folder ./nerfman/test
+creating ./nerfman/test/test_copyright.py
+creating ./nerfman/test/test_flake8.py
+creating ./nerfman/test/test_pep257.py

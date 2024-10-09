@@ -1,0 +1,10 @@
+# goal definition
+string command 	# “forward”,”turn_left”, “turn_right”
+float64 s 			
+float64 angle 		
+---
+# result definition
+bool result 		
+---
+#feedback
+float64 odom 

@@ -1,0 +1,7 @@
+ros2 bag record /turtle1/cmd_vel -o turtle_cmd_vel.mcap
+
+ros2 bag play turtle_cmd_vel.mcap
+ros2 bag play turtle_cmd_vel.mcap --rate 2.0
+
+ros2 topic echo /turtle1/pose > pose_speed_x.yaml
+

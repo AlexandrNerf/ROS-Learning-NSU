@@ -1,3 +1,3 @@
 # Repo for storing ROS course labs
 
-Current progress: 3/4 labs done
+Current progress: 4/5 labs done

@@ -1,0 +1,6 @@
+собрать через колкон, потом запустить:
+
+ros2 run robot_bringup diff_drive.launch.py
+
+ros2 run teleop_twist_joy teleop_node cmd_vel:=/robot/cmd_vel
+

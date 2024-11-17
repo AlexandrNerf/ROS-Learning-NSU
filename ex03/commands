@@ -1,0 +1,7 @@
+ros2 launch robot_bringup diff_drive.launch.py
+
+rqt_robot_steering
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=robot/cmd_vel
+
+

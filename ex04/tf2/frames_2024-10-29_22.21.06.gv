@@ -1,0 +1,22 @@
+digraph G {
+"robot/odom" -> "robot/base_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 221.809\nOldest transform: 216.909\n"];
+"base_link" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"world" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1730215266.487055\nOldest transform: 1730215261.587077\n"];
+"chassis" -> "caster_wheel"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "chassis"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot/base_link" -> "robot/left_wheel"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 221.859\nOldest transform: 216.909\n"];
+"robot/base_link" -> "robot/left_wheel_back"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 221.859\nOldest transform: 216.909\n"];
+"robot/base_link" -> "robot/right_wheel"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 221.859\nOldest transform: 216.909\n"];
+"robot/base_link" -> "robot/right_wheel_back"[label=" Broadcaster: default_authority\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 221.859\nOldest transform: 216.909\n"];
+"robot/base_link" -> "robot/base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot/chassis" -> "robot/caster_wheel"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot/base_link" -> "robot/chassis"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot/chassis" -> "robot/pyram"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"robot/pyram" -> "robot/pyram_2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "left_wheel"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1730215266.487238\nOldest transform: 1730215261.587273\n"];
+"base_link" -> "right_wheel"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1730215266.487398\nOldest transform: 1730215261.587424\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1730215266.5625193"[ shape=plaintext ] ;
+}->"world";
+}
